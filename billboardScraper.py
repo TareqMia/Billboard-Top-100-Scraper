@@ -19,52 +19,10 @@ for i in top_100_artists[0:5]:
     
 zipped = list(zip(songs, artists))
 
-tweet = ""
+top5 = ""
 for index, x in enumerate(zipped):
-    tweet += f"{index + 1} {x[0]} by {x[1]} \n"
+    top5 += f"{index + 1} {x[0]} by {x[1]} \n"
     
-print(tweet)
-    
-    
-    
-
-    
-
-        
-    
-
-
-    
-    
-    
-
-
-
-
-
-
-
-
-    
-    
-    
-
-
-
-
-    
-
-
-
-
-
-
-    
-    
-
-
-
-
-
+print(top5)
 
 
